@@ -1,9 +1,10 @@
 import "./footer.scss"
+import logo from '../images/logo.svg'
 export const Footer =()=>{
     return(
         <div className="footer">
             <div className="logo">
-                <img src="images\logo.svg"/>
+                <img src={logo}/>
             </div>
             <div className="Products2">
                 <h4>Product</h4>

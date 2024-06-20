@@ -1,10 +1,11 @@
 import "./laptop.scss"
+import laptop from "../images/illustration-laptop-desktop.svg"
 export const Laptop =()=>{
     return(
         <div className="laptopdiv">
 
             <div className="Laptopimg">
-                <img src="images\illustration-laptop-mobile.svg" width={600}/>
+                <img src={laptop} width={600}/>
             </div>
             <div className="Laptopw">
                 <h2>

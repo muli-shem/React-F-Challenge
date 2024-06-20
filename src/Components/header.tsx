@@ -1,11 +1,12 @@
 import "./header.scss"
+import logo from '../images/logo.svg'
 export const Headings = () => {
   return (
     <div className="heading">
       <div className="heads">
         <div className="Blogrhead">
         <div className="Logoimg">
-                <img src="images\logo.svg"/>
+                <img src={logo}/>
             </div>
     
           <ul className="floter">

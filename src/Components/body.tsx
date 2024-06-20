@@ -1,4 +1,5 @@
 import "./body.scss"
+import editor from '../images/illustration-editor-desktop.svg'
 export const Body =()=>{
  return(
     <div className="BodyDesign">
@@ -14,7 +15,7 @@ export const Body =()=>{
            </div>
         
             <div className="Bimage" >
-                <img src="images\illustration-editor-desktop.svg" width={500}/>
+                <img src={editor} width={500}/>
             </div>
         </div>
     </div>
