@@ -1,0 +1,42 @@
+.heading{
+  background-color:  hsl(13, 100%, 72%) ;
+  background-image: url(images\bg-pattern-intro-desktop.svg);
+  border-radius: 0px 0px 0px 90px;
+  padding: 10px 10px 50px;
+
+
+.Blogrhead{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+  
+  .floter{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+  }
+  .drops{
+    display: none;
+    
+  }
+.login
+  {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+.Platformhead{
+  margin: 2rem;
+  .LearnButton{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+  
+}
+}
